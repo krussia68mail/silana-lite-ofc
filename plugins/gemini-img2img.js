@@ -2,7 +2,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import fs from "fs";
 import path from "path";
 
-const API_KEY = "your gemini apikey";
+const API_KEY = "AIzaSyB5yTHQRawC9JJnWi5FZDWvEzftoIr6TVM";
 
 let handler = async (m, { conn, args, text, usedPrefix, command }) => {
   let q = m.quoted ? m.quoted : m;
